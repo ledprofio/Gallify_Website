@@ -1,12 +1,23 @@
-/** {
-    box-sizing: border-box;
-}*/
+* {
 
-#first-block-photos-div_Index {
-    text-align: center;
+    box-sizing: border-box;
+
 }
 
+
+#first-block-photos-div_Index {
+
+    text-align: center;
+
+    margin-bottom: 400px;
+
+}
+
+
 #first-block-photo_Index {
+
     width: 50%;
-    margin-top: 20px;
+
+    margin-top: 75px;
+    
 }
