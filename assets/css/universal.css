@@ -1,0 +1,12 @@
+/** {
+    box-sizing: border-box;
+}*/
+
+#first-block-photos-div_Index {
+    text-align: center;
+}
+
+#first-block-photo_Index {
+    width: 50%;
+    margin-top: 20px;
+}
