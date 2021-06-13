@@ -18,16 +18,11 @@
 		<link href="assets/css/universal.css" rel="stylesheet"> 
 
 
-		<!--Phone Compatibility & Required Meta Tags-->
+		<!--Meta Tags-->
 
 		<meta charset="utf-8">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-		<!-- Bootstrap CSS -->
-
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -107,73 +102,6 @@
 			</div>
 
 
-		<!--Backend Serverless Form JS-->
-
-		<script>
-
-			(() => {
-
-			  const form = document.querySelector('form');
-
-			  const submitResponse = document.querySelector('#response');
-
-			  const formURL = 'https://er4u89p2ck.execute-api.us-east-2.amazonaws.com/Prod/submitForm';
-		
-			  form.onsubmit = e => {
-
-				e.preventDefault();
-
-				// Capture the form data
-
-				let data = {};
-
-				Array.from(form).map(input => (data[input.id] = input.value));
-
-				console.log('Sending: ', JSON.stringify(data));
-
-				submitResponse.innerHTML = 'Sending...'
-
-		
-				// Create the AJAX request
-
-				var xhr = new XMLHttpRequest();
-
-				xhr.open(form.method, formURL, true);
-
-				xhr.setRequestHeader('Accept', 'application/json; charset=utf-8');
-
-				xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
-
-		
-				// Send the collected data as JSON
-
-				xhr.send(JSON.stringify(data));
-
-		
-				xhr.onloadend = response => {
-
-				  if (response.target.status === 200) {
-
-					form.reset();
-
-					submitResponse.innerHTML = 'Form submitted. Success!';
-
-				  } else {
-
-					submitResponse.innerHTML = 'Error! Please try again.';
-
-					console.error(JSON.parse(response));
-
-				  }
-
-				};  
-
-			  };
-
-			})();
-
-		  </script>
-
 		</main>
 
 
@@ -241,16 +169,6 @@
 
 
 		</div>
-
-
-	<!--Additional JS Resources: jQuery, CloudFlare, Bootstrap-->
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
 
 	</body>
 
