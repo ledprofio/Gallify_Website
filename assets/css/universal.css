@@ -137,13 +137,13 @@
 
     }
 
-    #third-block-form_Index input[type=submit] {
+    #third-block-form_Index button {
 
         margin-bottom: 400px;
 
-        font-size: 30px;
+        font-size: 25px;
 
-        padding: 35px;
+        padding: 20px;
 
         border-radius: 35px;
 
