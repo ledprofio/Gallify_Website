@@ -87,7 +87,7 @@
 
 #third-block-header_Index {
 
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
     width: 90%;
 
@@ -110,7 +110,7 @@
     #third-block-form-email-entry_Index {
 
         width: 90%;
-
+        
     }
 
     #third-block-form-submit_Index {
@@ -118,6 +118,8 @@
         width: 30%;
 
         background-color: #fd66c2;
+
+        margin-top: 10px;
 
     }
 
