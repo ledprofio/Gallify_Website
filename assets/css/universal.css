@@ -1,11 +1,15 @@
 * {
 
     box-sizing: border-box;
+
     font-family: 'Comfortaa', cursive;        
+
     line-height: 35px;
 
 }
 
+
+#first-block-photos-div_Index,
 
 #second-block-header_Index,
 
@@ -13,7 +17,11 @@
 
 #third-block-header_Index,
 
-.Third-Block-Div_Index
+#third-block-form-email-entry_Index,
+
+.Third-Block-Div_Index,
+
+.Footer-Div_Index
 
 {
 
@@ -25,8 +33,6 @@
 
 
 #first-block-photos-div_Index {
-
-    text-align: center;
 
     margin-bottom: 200px;
 
@@ -73,6 +79,8 @@
         width: 75%;
 
         margin-bottom: 250px;
+
+        font-size: 20px;
 
     }
 
@@ -124,8 +132,6 @@
 
     padding: 25px;
 
-    text-align: center;
-55
 }
 
     #footer-social-media-div_Index {
