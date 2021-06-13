@@ -41,7 +41,7 @@
 
 #first-block-photo_Index {
 
-    width: 50%;
+    width: 80%;
 
     margin-top: 100px;
 
@@ -60,7 +60,7 @@
 
         font-size: 50px;
 
-        width: 50%;
+        width: 90%;
 
         margin-bottom: 50px;
 
@@ -76,7 +76,7 @@
 
     #second-block-paragraph_Index {
 
-        width: 75%;
+        width: 90%;
 
         margin-bottom: 350px;
 
@@ -89,7 +89,7 @@
 
     margin-bottom: 50px;
 
-    width: 50%;
+    width: 90%;
 
 }
 
@@ -127,7 +127,9 @@
 
         font-size: 20px;
 
-        padding: 20px;
+        padding: 25px;
+
+        border-radius: 35px;
 
     }
 
