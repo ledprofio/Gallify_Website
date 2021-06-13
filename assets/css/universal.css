@@ -101,7 +101,13 @@
 
     #third-block-form_Index input:focus,
 
-    #third-block-form_Index input {
+    #third-block-form_Index button:focus,
+
+    #third-block-form_Index button:focus,
+
+    #third-block-form_Index input,
+
+    #third-block-form_Index button {
 
         border: 5px solid #fd66c2;
 
