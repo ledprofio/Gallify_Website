@@ -78,7 +78,7 @@
 
         width: 75%;
 
-        margin-bottom: 250px;
+        margin-bottom: 350px;
 
         font-size: 20px;
 
@@ -107,6 +107,12 @@
 
     }
 
+    #third-block-form-email-entry_Index {
+
+        width: 90%;
+
+    }
+
     #third-block-form-submit_Index {
 
         width: 30%;
@@ -117,7 +123,11 @@
 
     #third-block-form_Index input[type=submit] {
 
-        margin-bottom: 300px;
+        margin-bottom: 400px;
+
+        font-size: 20px;
+
+        padding: 20px;
 
     }
 
@@ -130,7 +140,7 @@
 
     font-size: 25px;
 
-    padding: 25px;
+    padding: 50px 25px 85px 25px
 
 }
 
