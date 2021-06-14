@@ -15,11 +15,11 @@
 
 #second-block-paragraph_Index,
 
-#third-block-header_Index,
+/*#third-block-header_Index,
 
 #third-block-form-email-entry_Index,
 
-.Third-Block-Div_Index,
+.Third-Block-Div_Index,*/
 
 .Footer-Div_Index
 
@@ -85,7 +85,7 @@
     }
 
 
-#third-block-header_Index {
+/*#third-block-header_Index {
 
     margin-bottom: 60px;
 
@@ -149,7 +149,7 @@
 
         color: white;
 
-    }
+    }*/
 
 
 .Footer-Div_Index {
