@@ -1,190 +1,300 @@
+
+
+
 * {
+
 
     box-sizing: border-box;
 
+
     font-family: 'Comfortaa', cursive;        
+
 
     line-height: 35px;
 
-}
-
-
-#first-block-photo_Index,
-
-#second-block-photo_Index {
-
-    width: 80%;
-
-    max-width: 500px;
-
-    display: block;
-
-    margin: 100px auto 350px auto;
 
 }
+
+
 
 
 #second-block-header_Index,
 
+
 #second-block-paragraph_Index,
+
 
 /*#third-block-header_Index,
 
+
 #third-block-form-email-entry_Index,
+
 
 .Third-Block-Div_Index,*/
 
+
 .Footer-Div_Index
+
 
 {
 
+
     text-align: center;
+
 
     margin: 0px auto;
 
+
 }
+
+
+
+
+#first-block-photo_Index,
+
+
+#second-block-photo_Index {
+
+
+    width: 80%;
+
+
+    max-width: 500px;
+
+
+    display: block;
+
+
+    margin: 100px auto 350px auto;
+
+
+}
+
+
 
 
 .Second-Block-Div_Index {
 
+
     margin-bottom: 250px;
+
 
 }
 
+
+
     #second-block-header_Index {
+
 
         font-size: 50px;
 
+
         width: 90%;
+
 
         margin-bottom: 50px;
 
+
         line-height: 65px;
 
+
     }
+
+
 
     #second-block-header-span_Index {
 
+
         color: #fd66c2;
+
 
         max-width: 750px;
 
+
     }
+
+
 
     #second-block-paragraph_Index {
 
+
         width: 70%;
+
 
         margin-bottom: 350px;
 
+
         font-size: 18px;
+
 
         max-width: 650px;
 
+
     }
+
+
 
 
 /*#third-block-header_Index {
 
+
     margin-bottom: 60px;
+
 
     width: 90%;
 
+
     font-size: 35px;
+
 
     line-height: 45.5px;
 
+
 }
+
+
 
     #third-block-form_Index input:hover,
 
+
     #third-block-form_Index input:focus,
 
-    #third-block-form_Index button:focus,
 
     #third-block-form_Index button:focus,
+
+
+    #third-block-form_Index button:focus,
+
 
     #third-block-form_Index input,
 
+
     #third-block-form_Index button {
+
 
         border: 5px solid #fd66c2;
 
+
         border-radius: 25px;
+
 
         margin-bottom: 50px;
 
+
     }
+
+
 
     #third-block-form-email-entry_Index {
 
+
         width: 90%;
+
 
         padding: 30px;
 
+
         font-size: 20px;
         
+
     }
+
+
 
     #third-block-form-submit_Index {
 
+
         width: 30%;
+
 
         background-color: #fd66c2;
 
+
         margin-top: 10px;
+
 
     }
 
+
+
     #third-block-form_Index button {
+
 
         margin-bottom: 400px;
 
+
         font-size: 25px;
+
 
         padding: 20px;
 
+
         border-radius: 35px;
 
+
         color: white;
+
 
     }*/
 
 
+
+
 .Footer-Div_Index {
+
 
     background-color: black;
 
+
     color: white;
+
 
     font-size: 18px;
 
+
     padding: 50px 25px 85px 25px
+
 
 }
 
+
+
     #footer-social-media-div_Index {
+
 
         display: flex;
 
+
         justify-content: center;
 
+
     }
+
+
 
     #footer-social-media-div_Index.Social-Media-Entry {
 
+
         flex: 25%;
+
 
         padding: 5px;
 
+
     }
+
+    
 
     #footer-social-media-div_Index img {
 
+
         width: 75px;
+
 
         height: 75px;
 
+
         padding: 15px;
 
+        
     }
