@@ -9,6 +9,29 @@
 }
 
 
+@media screen and (min-width: 750px) {
+
+#first-block-photo_Index {
+
+    width: 50%;
+
+    margin-bottom: 150px;
+
+    margin-top: 200px;
+
+}
+
+    @media screen and (min-width: 750px) {
+
+        #second-block-photo_Index {
+        
+            width: 60%;
+
+            margin-bottom: 300px;
+        
+        }
+
+
 #first-block-photos-div_Index,
 
 #second-block-header_Index,
@@ -39,7 +62,7 @@
 }
 
 
-#first-block-photo_Index {
+#first-block-photos_Index {
 
     width: 80%;
 
