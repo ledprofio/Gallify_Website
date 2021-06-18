@@ -67,15 +67,19 @@
 
         color: #fd66c2;
 
+        max-width: 750px;
+
     }
 
     #second-block-paragraph_Index {
 
-        width: 90%;
+        width: 70%;
 
         margin-bottom: 350px;
 
-        font-size: 20px;
+        font-size: 18px;
+
+        max-width: 650px;
 
     }
 
@@ -153,7 +157,7 @@
 
     color: white;
 
-    font-size: 25px;
+    font-size: 18px;
 
     padding: 50px 25px 85px 25px
 
@@ -177,10 +181,10 @@
 
     #footer-social-media-div_Index img {
 
-        width: 55px;
+        width: 75px;
 
-        height: 55px;
+        height: 75px;
 
-        padding: 10px;
+        padding: 15px;
 
     }
