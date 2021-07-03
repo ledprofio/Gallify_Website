@@ -10,7 +10,7 @@
     font-family: Helvetica, sans-serif;        
 
 
-    line-height: 35px;
+    line-height: 40px;
 
 
 }
@@ -118,13 +118,13 @@
     #second-block-paragraph_Index {
 
 
-        width: 70%;
+        width: 75%;
 
 
         margin-bottom: 350px;
 
 
-        font-size: 18px;
+        font-size: 25px;
 
 
         max-width: 650px;
@@ -249,7 +249,7 @@
     color: white;
 
 
-    font-size: 18px;
+    font-size: 19px;
 
 
     padding: 50px 25px 85px 25px
@@ -298,3 +298,9 @@
 
         
     }
+
+#foot-second-header_Index a {
+
+    color: #fd66c2;
+
+}
